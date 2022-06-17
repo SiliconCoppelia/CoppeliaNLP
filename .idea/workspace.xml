@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f32f8edc-0cc5-4b44-9fb3-cf3416247245" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/json/json.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/CDL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/CDL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/Cookie.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/Cookie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/CookieList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/CookieList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/HTTP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/HTTP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/HTTPTokener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/HTTPTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONML.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONObject$Null.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPointer$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPointer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPointerException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPointerException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPropertyIgnore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPropertyIgnore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPropertyName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONPropertyName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONStringer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONStringer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONTokener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/JSONWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/Property.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/Property.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XML$1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XML$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XML.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XMLParserConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XMLParserConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XMLTokener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XMLTokener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XMLXsiTypeConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/json/org/json/XMLXsiTypeConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainText.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoppeliaNLP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CoppeliaNLP.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2AhodRkZgtYTKwkPp1Twdtne8s5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f32f8edc-0cc5-4b44-9fb3-cf3416247245" name="Default Changelist" comment="" />
+      <created>1655471264460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655471264460</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="229" y="25" width="1024" height="819" key="SettingsEditor" timestamp="1655490350918">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="25" width="1024" height="819" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1655490350918" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1655471281473">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1655471281473" />
+  </component>
+</project>

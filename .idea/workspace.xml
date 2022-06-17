@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f32f8edc-0cc5-4b44-9fb3-cf3416247245" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/CoppeliaNLP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainText.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
     </list>
@@ -69,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
@@ -131,14 +128,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1655490955011" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1655495285277">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1655495285277" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1655495285276">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1655495285276" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1655495285275">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1655495285275" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1655495285276">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1655495285276" />
     <state x="363" y="138" key="NewModule_or_Project.wizard" timestamp="1655490784317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="363" y="138" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1655490784317" />
-    <state x="229" y="25" width="1024" height="819" key="SettingsEditor" timestamp="1655491343069">
+    <state x="229" y="25" width="1024" height="819" key="SettingsEditor" timestamp="1655494885723">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="25" width="1024" height="819" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1655491343069" />
+    <state x="229" y="25" width="1024" height="819" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1655494885723" />
     <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1655471281473">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

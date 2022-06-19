@@ -68,14 +68,16 @@ public class CoppeliaLearn {
                 NGrams.put(tokens.get(i), values);
             }
         }*/
-        for(int i = 0; i < 5 - this.n; i++){
-            if(tokens.get(i) != "#END#"){
+        for(int i = 0; i < 12 - this.n; i++){
+            if(!tokens.get(i).equals("#END#")){
                 for(int j = 1; j <= this.n; j++){
-                    if(tokens.get(i + j) == "#END#"){ break; }
+                    if(tokens.get(i + j).equals("#END#")){ break; }
                     else{ values.add(tokens.get(i + j)); }
                 }
                 NGrams.put(tokens.get(i), values);
+                System.out.println(NGrams);
             }
+            values.clear();
         }
         return NGrams;
     }

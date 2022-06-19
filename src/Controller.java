@@ -17,6 +17,7 @@ import java.util.Map;
 public class Controller {
 
     private static final int n = 2;
+    private static String[] values = new String[n];
 
     public static void main(String[] args) {
 
@@ -30,15 +31,11 @@ public class Controller {
         learn.stringTokenizers(tokens);
 
         // Step 3: Create Dictionary (Map) for N-Gram
-        Map<String, List<String>> NGram = new HashMap<>();
+        Map<String, List<String>> NGrams = new HashMap<>();
         List<String> values = new ArrayList<>();
-        learn.createDic(NGram, values, tokens);
+        learn.createDic(NGrams, values, tokens);
 
         CoppeliaResponse response = new CoppeliaResponse(n);
-
-        System.out.println(NGram.values());
-        System.out.println(NGram.keySet());
-        System.out.println(NGram);
     }
 
 

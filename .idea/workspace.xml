@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f32f8edc-0cc5-4b44-9fb3-cf3416247245" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/corpus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Generation/CoppeliaResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Learn/CoppeliaLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CoppeliaNLP/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoppeliaNLP/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CoppeliaNLP/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +78,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Controller">
     <configuration name="Controller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Controller" />
+      <module name="CoppeliaNLP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NGram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NGram" />
       <module name="CoppeliaNLP" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,6 +96,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Controller" />
+        <item itemvalue="Application.NGram" />
       </list>
     </recent_temporary>
   </component>
@@ -128,22 +142,22 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1655490955011" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1655495285277">
+    <state width="1398" height="512" key="GridCell.Tab.0.bottom" timestamp="1655627284801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1655495285277" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1655495285276">
+    <state width="1398" height="512" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1655627284801" />
+    <state width="1398" height="512" key="GridCell.Tab.0.center" timestamp="1655627284800">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1655495285276" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1655495285275">
+    <state width="1398" height="512" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1655627284800" />
+    <state width="1398" height="512" key="GridCell.Tab.0.left" timestamp="1655627284800">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1655495285275" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1655495285276">
+    <state width="1398" height="512" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1655627284800" />
+    <state width="1398" height="512" key="GridCell.Tab.0.right" timestamp="1655627284801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1655495285276" />
+    <state width="1398" height="512" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1655627284801" />
     <state x="363" y="138" key="NewModule_or_Project.wizard" timestamp="1655490784317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

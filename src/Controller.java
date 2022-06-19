@@ -5,33 +5,38 @@
     https://howtodoinjava.com/java/library/json-simple-read-write-json-examples/
 */
 
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.nio.file.Files;
-import java.nio.file.Path;
+import Learn.*;
+import Generation.*;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 
 public class Controller {
 
-    private static String[] splitString;
+    private static final int n = 2;
 
     public static void main(String[] args) {
-        Path fileName = Path.of("train.txt");
-        String trainTexts = null;
-        try {
-            trainTexts = Files.readString(fileName);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        //System.out.println(trainTexts);
-        // Reference: https://www.geeksforgeeks.org/java-program-to-read-a-file-to-string/
 
-        splitString = sentenceSegmentation(trainTexts);
+        CoppeliaLearn learn = new CoppeliaLearn(n);
+        learn.readCorpus();
+        // Step 1: Sentence Segmentation
+        learn.sentenceSegmentation(); // Must call before tokenization
+
+        // Step 2: Tokenization
+        List<String> tokens = new ArrayList<>();
+        learn.stringTokenizers(tokens);
+
+        // Step 3: Create Dictionary (Map) for N-Gram
+        Map<String, List<String>> NGram = new HashMap<>();
+        List<String> values = new ArrayList<>();
+        learn.createDic(NGram, values, tokens);
+
+        CoppeliaResponse response = new CoppeliaResponse();
     }
 
-    private static String[] sentenceSegmentation(String trainTexts){
-        String delimiter = "[.?!]";
-        return (trainTexts.split(delimiter));
-    }
+
 
 }

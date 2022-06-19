@@ -38,7 +38,7 @@ public class CoppeliaLearn {
         String delimiter = "[.?!]";
         splitString = (corpus.split(delimiter));
         for (int i = 0; i < splitString.length; i++){
-            splitString[i] = splitString[i] + " #END#";
+            splitString[i] = "#START#" + splitString[i] + " #END#";
         }
         return splitString;
     }
@@ -54,20 +54,12 @@ public class CoppeliaLearn {
         return tokens;
     }
 
+    /* Deprecated
     public Map<String, List<String>> createDic(Map<String, List<String>> NGrams, List<String> values, List<String> tokens){
-        /* Reference:
+        Reference:
             https://stackoverflow.com/questions/13543457/how-do-you-create-a-dictionary-in-java
             https://stackoverflow.com/questions/4956844/hashmap-with-multiple-values-under-the-same-key
 
-        for(int i = 0; i < tokens.size() - this.n; i++){
-            if(tokens.get(i) != "#END#"){
-                for(int j = 1; j <= this.n; j++){
-                    if(tokens.get(i + j) == "#END#"){ break; }
-                    else{ values.add(tokens.get(i + j)); }
-                }
-                NGrams.put(tokens.get(i), values);
-            }
-        }*/
         for(int i = 0; i < 12 - this.n; i++){
             if(!tokens.get(i).equals("#END#")){
                 for(int j = 1; j <= this.n; j++){
@@ -81,4 +73,5 @@ public class CoppeliaLearn {
         }
         return NGrams;
     }
+    */
 }

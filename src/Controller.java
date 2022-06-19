@@ -33,7 +33,7 @@ public class Controller {
         // Step 3: Create Dictionary (Map) for N-Gram
         Map<String, List<String>> NGrams = new HashMap<>();
         List<String> values = new ArrayList<>();
-        learn.createDic(NGrams, values, tokens);
+        //learn.createDic(NGrams, values, tokens);
 
         CoppeliaResponse response = new CoppeliaResponse(n);
     }

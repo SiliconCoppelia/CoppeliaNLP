@@ -11,7 +11,7 @@ public class CoppeliaLearn {
 
     private static String corpus = null;
     private static String[] splitString;
-    private int n;
+    private static int n;
 
     public CoppeliaLearn(int n){
         this.n = n;
@@ -54,7 +54,29 @@ public class CoppeliaLearn {
         return tokens;
     }
 
-    public static Map<String, List<String>> createDic(Map<String, List<String>> NGrams, List<String> values, List<String> tokens){
+    public Map<String, List<String>> createDic(Map<String, List<String>> NGrams, List<String> values, List<String> tokens){
+        /* Reference:
+            https://stackoverflow.com/questions/13543457/how-do-you-create-a-dictionary-in-java
+            https://stackoverflow.com/questions/4956844/hashmap-with-multiple-values-under-the-same-key
+
+        for(int i = 0; i < tokens.size() - this.n; i++){
+            if(tokens.get(i) != "#END#"){
+                for(int j = 1; j <= this.n; j++){
+                    if(tokens.get(i + j) == "#END#"){ break; }
+                    else{ values.add(tokens.get(i + j)); }
+                }
+                NGrams.put(tokens.get(i), values);
+            }
+        }*/
+        for(int i = 0; i < 5 - this.n; i++){
+            if(tokens.get(i) != "#END#"){
+                for(int j = 1; j <= this.n; j++){
+                    if(tokens.get(i + j) == "#END#"){ break; }
+                    else{ values.add(tokens.get(i + j)); }
+                }
+                NGrams.put(tokens.get(i), values);
+            }
+        }
         return NGrams;
     }
 }

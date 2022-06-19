@@ -20,15 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f32f8edc-0cc5-4b44-9fb3-cf3416247245" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/corpus.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Generation/CoppeliaResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Learn/CoppeliaLearn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoppeliaNLP/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CoppeliaNLP/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CoppeliaNLP/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Learn/CoppeliaLearn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Learn/CoppeliaLearn.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,26 +136,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="244" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1655490955011" />
-    <state width="1398" height="512" key="GridCell.Tab.0.bottom" timestamp="1655627284801">
+    <state width="1398" height="512" key="GridCell.Tab.0.bottom" timestamp="1655641926267">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="512" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1655627284801" />
-    <state width="1398" height="512" key="GridCell.Tab.0.center" timestamp="1655627284800">
+    <state width="1398" height="512" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1655641926267" />
+    <state width="1398" height="512" key="GridCell.Tab.0.bottom/0.25.1440.819@0.25.1440.819" timestamp="1655631520432" />
+    <state width="1398" height="512" key="GridCell.Tab.0.center" timestamp="1655641926266">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="512" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1655627284800" />
-    <state width="1398" height="512" key="GridCell.Tab.0.left" timestamp="1655627284800">
+    <state width="1398" height="512" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1655641926266" />
+    <state width="1398" height="512" key="GridCell.Tab.0.center/0.25.1440.819@0.25.1440.819" timestamp="1655631520430" />
+    <state width="1398" height="512" key="GridCell.Tab.0.left" timestamp="1655641926265">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="512" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1655627284800" />
-    <state width="1398" height="512" key="GridCell.Tab.0.right" timestamp="1655627284801">
+    <state width="1398" height="512" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1655641926265" />
+    <state width="1398" height="512" key="GridCell.Tab.0.left/0.25.1440.819@0.25.1440.819" timestamp="1655631520423" />
+    <state width="1398" height="512" key="GridCell.Tab.0.right" timestamp="1655641926266">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="512" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1655627284801" />
+    <state width="1398" height="512" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1655641926266" />
+    <state width="1398" height="512" key="GridCell.Tab.0.right/0.25.1440.819@0.25.1440.819" timestamp="1655631520430" />
     <state x="363" y="138" key="NewModule_or_Project.wizard" timestamp="1655490784317">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="363" y="138" key="NewModule_or_Project.wizard/0.0.1440.900@0.0.1440.900" timestamp="1655490784317" />
+    <state x="506" y="174" key="RollbackChangesDialog" timestamp="1655640327778">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="506" y="174" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1655640327778" />
     <state x="229" y="25" width="1024" height="819" key="SettingsEditor" timestamp="1655494885723">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

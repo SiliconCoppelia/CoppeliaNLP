@@ -23,7 +23,7 @@ public class Controller {
         CoppeliaLearn learn = new CoppeliaLearn(n);
         learn.readCorpus();
         // Step 1: Sentence Segmentation
-        learn.sentenceSegmentation(); // Must call before tokenization
+        learn.sentenceSegmentation();
 
         // Step 2: Tokenization
         List<String> tokens = new ArrayList<>();
@@ -34,7 +34,11 @@ public class Controller {
         List<String> values = new ArrayList<>();
         learn.createDic(NGram, values, tokens);
 
-        CoppeliaResponse response = new CoppeliaResponse();
+        CoppeliaResponse response = new CoppeliaResponse(n);
+
+        System.out.println(NGram.values());
+        System.out.println(NGram.keySet());
+        System.out.println(NGram);
     }
 
 
